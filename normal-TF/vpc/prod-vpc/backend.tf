@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "study-state-file"
+    bucket = "state-file-study"
     key = "terraform-practice/normal-TF/vpc/prod-vpc/terraform.tfstate"
     use_lockfile = true
     encrypt = true
